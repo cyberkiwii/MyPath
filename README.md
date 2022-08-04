@@ -5,14 +5,6 @@ My Path is an interactive website that allows users to experience a choose-your-
 My path was built primarily using HTML, CSS, and JavaScript. 
 
 
-MyPath HTML Website
-
-Website created for TUHSD Hackathon 2022 (organized by TUHSD Chapter of Girls Who Code)
-
-We won 1st Place in the Intermediate division
-
-Created By Gracie Gallegos, Mia Silva, Zoe Amtsfield
-
 ## History
 
 MyPath was originally created for the TUHSD Hackathon we participated in the Spring of 2022. The Hackathon was school-district wide and organized by the local chapter of Girls Who Code.
