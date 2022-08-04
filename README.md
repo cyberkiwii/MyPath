@@ -4,9 +4,9 @@
 
 # MyPath
 
-My Path is an interactive website that allows users to experience a choose-your-own-adventure while navigating through decisions in regards to their career and life path. Our approach gives users (student in particular) and more hands-on method to visualize possible paths and better understand their options.
+MyPath is an interactive website that allows users to experience a choose-your-own-adventure while navigating through decisions in regards to their career and life path. Our approach gives users (student in particular) and more hands-on method to visualize possible paths and better understand their options.
 
-My path was built primarily using HTML, CSS, and JavaScript. 
+MyPath was built primarily using HTML, CSS, and JavaScript. 
 
 
 ## History
