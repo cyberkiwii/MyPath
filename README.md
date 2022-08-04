@@ -18,7 +18,7 @@ We participated in the Intermediate Division and were asked to create something 
 
 ## Overview
 
-Here's a link to an overview video / concept pitch that we made! 
+Here's a link to an overview video / concept pitch that we made!  
 https://youtu.be/UEDKbmhQ_6E
 
 
