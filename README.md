@@ -1,3 +1,7 @@
+<p align="center">
+   <img src=""/>
+</p>
+
 # MyPath
 
 My Path is an interactive website that allows users to experience a choose-your-own-adventure while navigating through decisions in regards to their career and life path. Our approach gives users (student in particular) and more hands-on method to visualize possible paths and better understand their options.
