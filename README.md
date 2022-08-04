@@ -1,5 +1,5 @@
 <p align="center">
-   <img src=""/>
+   <img src="images/logo.png"/>
 </p>
 
 # MyPath
