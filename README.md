@@ -32,19 +32,24 @@ Having never worked on a project together before, we learned how to collaborate 
 
 ## Features
 
-### Career Quiz
+- Career Quiz
 
-### Choose-Your-Own Path Interactive Page
+- Choose-Your-Own Path Interactive Page
 
-### Career Cluster Options
+- Career Cluster Options
 
-### Path Map and Career Information Page
+- Path Map and Career Information Page
+
+(MAYBE EXPAND ON THE FEATURES AND MORE ABOUT THEM??)
 
 
 ## For Educators
+information for educators
 
 
 ## For Students
+help for students
+
 
 # Future of MyPath
 
