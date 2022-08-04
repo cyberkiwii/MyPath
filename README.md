@@ -16,6 +16,11 @@ MyPath was originally created for the TUHSD Hackathon we participated in the Spr
 We participated in the Intermediate Division and were asked to create something that we felt would improve the education system, based on our own experience. Our concept and website ended up winning 1st place in our division!
 
 
+## Overview
+
+Here's a link to an overview video / concept pitch that we made!
+https://youtu.be/UEDKbmhQ_6E
+
 
 ## Creators + Contributors
 
