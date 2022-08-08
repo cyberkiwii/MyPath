@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width"> 
+  
+  <title>Career Cluster Quiz</title>
+  <!--imports font: Poppins-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+	
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script src="/quiz.js" defer>
+  </script>
+</head>
+
+<body>
+  <header>
+			<div class="wrapper">
+
+        <!--codes for the navigation bar-->
+				<nav>
+                <a class="active" href="index.html">Home</a><a href="template.html">Start Path</a><a href="about.html">About us + Contact</a>
+            
+				</nav>
+        
+				
+			</div>
+		</header>
+    <div class="content-area">
+			<div class="wrapper">
+    				<p>
+              <h2>Career Quiz</h2>
+          <p>
+            <center>
+              Take this quiz to find out what career path would fit you best!
+            <br>
+            Click one picture from each set that looks the most interesting to you.
+          </center>
+      </p>
+
+          <a href="#pt-two"><img class="quiz-pics" id = "agr1" src = "quizPhotos/agriculture1.jpg" onClick = "agriculture()"> <img class="quiz-pics" id = "arch1" src = "quizPhotos/architecture1.jpg" onClick = "architecture()"> <img class="quiz-pics" id = "bus1" src = "quizPhotos/business1.jpg" onClick = "business()"> <img class="quiz-pics" id = "edu1" src = "quizPhotos/education1.jpg" onClick = "education()"></a> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-two"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#pt-three"><img class="quiz-pics" id = "govt1" src = "quizPhotos/gov1.jpg" onClick = "government()"> <img class="quiz-pics" id = "hea1" src = "quizPhotos/health1.jpg" onClick = "healthServices()"> <img class="quiz-pics" id = "hosp1" src = "quizPhotos/hospitality1.jpg" onClick = "hospitality()"> <img class="quiz-pics" id = "human1" src = "quizPhotos/human1.jpg" onClick = "humanServices()"> </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-three"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#pt-four"><img class="quiz-pics" id = "tech1" src = "quizPhotos/it1.jpg" onClick = "it()"> <img class="quiz-pics" id = "law1" src = "quizPhotos/law1.jpg" onClick = "law()"> <img class="quiz-pics" id = "manu1" src = "quizPhotos/manufacturing1.jpg" onClick = "manufacturing()"> <img class="quiz-pics" id = "stem1" src = "quizPhotos/stem1.jpg" onClick = "stem()"> </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-four"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#pt-five"><img class="quiz-pics" id = "transport1" src = "quizPhotos/transport1.jpg" onClick = "transportation()"> <img class="quiz-pics" id = "art2" src = "quizPhotos/arts1.jpg" onClick = "art()"> <img class="quiz-pics" id = "agr2" src = "quizPhotos/agriculture2.jpg" onClick = "agriculture()"> <img class="quiz-pics" id = "arch2" src = "quizPhotos/architecture2.jpg" onClick = "architecture()"> </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-five"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#pt-six"><img class="quiz-pics" id = "bus2" src = "quizPhotos/business2.png" onClick = "business()"> <img class="quiz-pics" id = "edu2" src = "quizPhotos/education2.jpg" onClick = "education()"> <img class="quiz-pics" id = "govt2" src = "quizPhotos/gov2.jpg" onClick = "government()"> <img class="quiz-pics" id = "hea2" src = "quizPhotos/health2.jpg" onClick = "health()"> </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-six"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#pt-seven"><img class="quiz-pics" id = "hosp2" src = "quizPhotos/hospitality2.jpg" onClick = "hospitality()"> <img class="quiz-pics" id = "human2" src = "quizPhotos/human2.jpg" onClick = "humanServices()"> <img class="quiz-pics" id = "tech2" src = "quizPhotos/it2.jpg" onClick = "it()"> <img class="quiz-pics" id = "law2" src = "quizPhotos/law2.jpg" onClick = "law()"> </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-seven"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#pt-eight"><img class="quiz-pics" id = "manu2" src = "quizPhotos/manufacturing2.jpeg" onClick = "manufacturing()"> <img class="quiz-pics" id = "stem2" src = "quizPhotos/stem2.jpg" onClick = "stem()"> <img class="quiz-pics" id = "transport2" src = "quizPhotos/transport2.jpg" onClick = "transportation()"> <img class="quiz-pics" id = "art2" src = "quizPhotos/arts1.jpg" onClick = "art()"></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-eight"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#pt-nine"><img class="quiz-pics" id = "agr3" src = "quizPhotos/agriculture3.jpg" onClick = "agriculture()"> <img class="quiz-pics" id = "arch3" src = "quizPhotos/architecture3.JPG" onClick = "architecture()"> <img class="quiz-pics" id = "bus3" src = "quizPhotos/business3.jpg" onClick = "business()"> <img class="quiz-pics" id = "edu2" src = "quizPhotos/education3.jpg" onClick = "education()"> </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-nine"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#pt-ten"><img class="quiz-pics" id = "govt3" src = "quizPhotos/gov3.jpg" onClick = "government()"> <img class="quiz-pics" id = "hea3" src = "quizPhotos/health3.jpg" onClick = "healthServices()"> <img class="quiz-pics" id = "hosp3" src = "quizPhotos/hospitality3.jpg" onClick = "hospitality()"> <img class="quiz-pics" id = "law3" src = "quizPhotos/law3.jpg" onClick = "law()"> </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-ten"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#pt-eleven"><img class="quiz-pics" id = "tech3" src = "quizPhotos/it3.jpg" onClick = "it()">  <img class="quiz-pics" id = "manu3" src = "quizPhotos/manufacturing3.jpg" onClick = "manufacturing()"> <img class="quiz-pics" id = "human3" src = "quizPhotos/human3.jpg" onClick = "humanServices()"></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="pt-eleven"><br> </a>
+        <br>
+        <br>
+        <br>
+        <a href="#result"><img class="quiz-pics" id = "stem3" src = "quizPhotos/stem3.JPG" onClick = "stem()"> <img class="quiz-pics" id = "transport3" src = "quizPhotos/transport3.png" onClick = "transportation()"> <img class="quiz-pics" id = "art3" src = "quizPhotos/arts3.jpg" onClick = "art()"></a>
+        <br>
+        <br>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <a id="result"> 
+          Your Top 3 Clusters Are:
+        </a>
+        </h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Now go to "Start Path to choose a cluster and start the journey down your path!"</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            </p>
+			</div>
+		</div>
+</body>
+
+</html>
