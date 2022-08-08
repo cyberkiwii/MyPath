@@ -1,0 +1,514 @@
+
+
+
+/*picture styling*/
+.quiz-pics {
+	height: 270px;
+  float:center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background-color:  #BFD5D9;
+  text-align: center;
+  font-family: poppins;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.begin-quiz {
+  width: 50%;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto; 
+}
+header {
+	height: 50px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+
+footer {
+  height: 10px;
+  text-align:center;
+  background: #262626;
+  color: white;
+  display: block;
+  
+}
+
+
+
+nav {
+	float: left;
+	line-height: 50px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+nav a:hover:not(.active) {
+    color: #88A3C2;
+}
+
+.active {
+    color: #5D7AA6;
+}
+
+
+
+/* ------------------------------------------------*/
+
+/*PAGE CONTENT STYLES -SHORTER PAGES*/
+
+#homePage img{
+  width: 70%;
+  height: 70%;
+}
+.content-area-simple {
+
+	font-size:25px;
+	width: 100%;
+	position: relative;
+	background:  #BFD5D9;
+	height: 1500px;
+}
+.content-area-simple h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area-simple h3 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 35px;
+	margin: 0;
+}
+.content-area-simple h4 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 30px;
+	margin: 0;
+}
+
+.content-area-simple p {
+  text-align:left;
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+
+
+
+/* ------------------------------------------------*/
+
+/*PAGE CONTENT STYLES -LONGER PAGES*/
+.content-area {
+
+	font-size:25px;
+	width: 100%;
+	position: relative;
+	background:  #BFD5D9;
+	height: 3000px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area h3 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 35px;
+	margin: 0;
+}
+.content-area h4 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 30px;
+	margin: 0;
+}
+
+.content-area p {
+    text-align:left;
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+
+
+/* ------------------------------------------------*/
+
+
+/*TEMPLATE STYLES*/
+.backOne {
+  width:100%;
+  z-index: 0;
+  position:absolute;
+  top:1.5%;
+  left:0%;
+}
+
+.dropDow {
+  position: absolute;
+  top: 5%;
+}
+
+.info-box {
+  padding: 8px 8px 8px 8px;
+	background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 1.3;
+  position:absolute; 
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-5%);
+  z-index: 1;
+}
+.info-box p{
+  text-align: center;
+}
+
+  .button1 { /*WORK FORCE*/
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 40px;
+    margin: 4px 2px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: poppins;
+    position: absolute;
+    top: 15%;
+    left:7%;
+    transform: transformX(-8%) translateY(-15%);
+    z-index: 1;
+  }
+
+  .button2 { /*UNIVERSITY*/
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 60px;
+    margin: 4px 2px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: poppins;
+    position: absolute;
+    top: 19%;
+    left:28%;
+    transform: transformX(-28%) translateY(-19%);
+    z-index: 1;
+  }
+
+  .button3 { /*TRADE SCHOOL*/
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 40px;
+    margin: 4px 2px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: poppins;
+    position: absolute;
+    top: 15%;
+    left:50%;
+    transform: transformX(-50%) translateY(-15%);
+    z-index: 1;
+  }
+
+  .button4 { /*COMMUNITY COLLEGE*/
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 40px;
+    margin: 4px 2px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: poppins;
+    position: absolute;
+    top: 19%;
+    left:74%;
+    transform: transformX(-74%) translateY(-19%);
+    z-index: 1;
+  }
+
+
+/*Cluster page styles*/
+
+.container{
+  position: relative;
+  
+}
+
+.row1{
+  height: 300px;
+  display: inline-block;
+  
+  
+  
+}
+.row2{
+  height: 300px;
+  display: inline-block;
+}
+
+.row3{
+  height: 300px;
+  display: inline-block;
+}
+
+.row4{
+  height: 300px;
+  display: inline-block;
+}
+
+/*CLUSTER LABELS*/
+
+/*Agriculture, Food, and Natural Resources*/
+.agr{
+  position: absolute;
+  top: 2%;
+  left:13%;
+  transform: translateX(-13%) translateY(-2%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Architecture and Construction*/
+.arc{
+  position: absolute;
+  top: 2%;
+  left:38%;
+  transform: translateX(-38%) translateY(-2%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Arts, A/V Technology, and Communication*/
+.arts{
+  position: absolute;
+  top: 2%;
+  left:62%;
+  transform: translateX(-62%) translateY(-2%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Business, Marketing, Finance*/
+.bus{
+  position: absolute;
+  top: 2%;
+  left:86%;
+  transform: translateX(-86%) translateY(-2%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Education and Training*/
+.edu{
+  position: absolute;
+  top: 28%;
+  left:15%;
+  transform: translateX(-15%) translateY(-28%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Government & Public Administration*/
+.gov{
+  position: absolute;
+  top: 28%;
+  left:38%;
+  transform: translateX(-38%) translateY(-28%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Health Science*/
+.health{
+  position: absolute;
+  top: 28%;
+  left:61%;
+  transform: translateX(-61%) translateY(-28%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Hospitality & Tourism*/
+.hos{
+  position: absolute;
+  top: 28%;
+  left:85%;
+  transform: translateX(-85%) translateY(-28%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Human Services*/
+.human{
+  position: absolute;
+  top: 54%;
+  left:17%;
+  transform: translateX(-17%) translateY(-54%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Information Technology*/
+.it{
+  position: absolute;
+  top: 54%;
+  left:39%;
+  transform: translateX(-39%) translateY(-54%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Law, Public Safety, Corrections & Security*/
+.law{
+  position: absolute;
+  top: 54%;
+  left:62%;
+  transform: translateX(-62%) translateY(-54%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Manufacturing*/
+.manu{
+  position: absolute;
+  top: 54.5%;
+  left:85%;
+  transform: translateX(-85%) translateY(-54.5%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*STEM*/
+.stem{
+  position: absolute;
+  top: 80%;
+  left:37.5%;
+  transform: translateX(-37.5%) translateY(-80%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+/*Transportation, Distribution & Logistics*/
+.transpo{
+  position: absolute;
+  top: 80%;
+  left:62.5%;
+  transform: translateX(-62.5%) translateY(-80%);
+  font-size: 15px;
+  background: #ffffff;
+	color: #000000;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: poppins;
+}
+
+
+  
