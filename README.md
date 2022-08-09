@@ -2,6 +2,8 @@
    <img src="logo.png"/>
 </p>
 
+Our Website: https://cyberkiwii.github.io/MyPath/
+
 # MyPath
 
 MyPath is an interactive website that allows users to experience a choose-your-own-adventure while navigating through decisions in regards to their career and life path. Our approach gives users (student in particular) and more hands-on method to visualize possible paths and better understand their options.
