@@ -59,3 +59,8 @@ help for students
 In the future, we would like to refine and add features to our website. If you have any ideas, please feel free to contact us! 
 
 
+# Notice for public and collaborators
+
+While this repository is open-source and public, we ask that you please respect our project.
+If you are a contributer to the project, you must create a branch (not main) to work off of and send a pull request to push the main. One of the Originial Adminstrators will approve your request. If you would like to work on an issue in this Repo, please send a message in the discussion 'For Contributors' and we will assign you an issue to work on. 
+
